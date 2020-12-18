@@ -1,4 +1,11 @@
-# Predicting 
-1. content
-1. fjdsf
-1. jfdkjfs
+# Predicting working memory training outcome using a MLP model 
+## Introduction
+Working memory (WM) is a cognitive function that represents one's ability to hold information temporarily and focusing on the current task. It’s important for learning and everyday working. Many researchers have found that working memory capacity can be improved by training (Shipstead et al., 2012). However, some individuals benefit more than others. Individual differences have been discussed as potential factors determining benefits from WM training, and several papers have examined the independent effect of selected variables on WM training outcome (Morrison & Chein, 2011). For example, Foster et al. (2017) found that participants with high initial WM ability showed more gains relative to the low initial WM ability participants. However, some other researchers found larger training gains for individuals with lower baseline performance (Zinke et al., 2014). Besides baseline cognitive ability, motivation, and personality traits may also play an important role in affecting WM training gains through interacting with intervention-specific features (Von Bastian & Oberauer, 2014). Infer from previous studies, individual difference variables are likely to be combined to affect the training gains. If only taking one or two factors into account, inconsistent findings might be observed in different samples. To overcome those limitations, here we are using several individual differences variables at once to predict WM training performance. 
+
+In the current study, we used multiple variables as features and applied a fully connected neural network to train a regression model to predict individuals’ training outcomes. In recent years, machine learning and deep learning methods have been applied in Psychological science and cognitive neural science fields. Facebook behavior (Likes) can predict personality by using a machine learning model which is more accurate than those made by the participants’ friends (Youyou et al., 2015); Deep learning is used successfully in brain image data to classify psychiatric disorders (Vieira et al., 2017). However, it’s hard to find a study that used machine learning in the analysis of experimental behavior data because many psychological experiment results are analyzed by p-value statistical inference. They care about the relationship between variables. In our case, we want to take advantage of machine learning or deep learning models to more focusing on prediction at the single-subject level.
+## Method
+### Participants
+
+### Training program
+
+### 
